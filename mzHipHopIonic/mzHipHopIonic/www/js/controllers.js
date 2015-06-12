@@ -1,19 +1,24 @@
-angular.module('starter.controllers', [])
+var app = angular.module('starter.controllers', [])
 
-.controller('DashCtrl', function($scope) {})
+app.controller('DashCtrl', function ($scope) {
 
-.controller('ChatsCtrl', function($scope, Chats) {
+    $scope.articles = [ ];
+    $scope.rssFeed = 'http://www.feedyes.com/feed.php?f=rnVsf2z9TuLgLI8m';
+
+})
+
+app.controller('ChatsCtrl', function($scope, Chats) {
   $scope.chats = Chats.all();
   $scope.remove = function(chat) {
     Chats.remove(chat);
   }
 })
 
-.controller('ChatDetailCtrl', function($scope, $stateParams, Chats) {
+app.controller('ChatDetailCtrl', function($scope, $stateParams, Chats) {
   $scope.chat = Chats.get($stateParams.chatId);
 })
 
-.controller('AccountCtrl', function($scope) {
+app.controller('AccountCtrl', function($scope) {
   $scope.settings = {
     enableFriends: true
   };

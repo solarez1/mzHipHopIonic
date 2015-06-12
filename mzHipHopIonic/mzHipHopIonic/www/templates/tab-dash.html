@@ -1,6 +1,10 @@
+
 <ion-view view-title="Home">
-  <ion-content class="padding">
-      <div ng-app="feedApp" ng-controller="DashCtrl as Ctrl "></div>
-      {{1+3}}
-  </ion-content>
+    <ion-content>
+        <ion-list>
+            <div ng-controller="DashCtrl">
+                    <input id='rssFeed' size="10000" ng-model="rssFeed" type="text">
+                </div>          
+        </ion-list>
+    </ion-content>
 </ion-view>
