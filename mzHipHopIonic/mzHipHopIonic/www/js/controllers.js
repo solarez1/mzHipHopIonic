@@ -10,7 +10,8 @@ app.controller('DashCtrl', function ($http, $scope) {
                 $scope.rssSiteUrl = data.responseData.feed.link;
                 $scope.entries = data.responseData.feed.entries;
                 $scope.browse = function (v) {
-                    window.open(v, "_system", "location=yes");
+                    window.open(v, "_self", "location=yes", "toolbar=yes");
+             
                 }
 
             })
@@ -30,7 +31,8 @@ app.controller('ChatsCtrl', function($http, $scope) {
                 $scope.rssSiteUrl = data.responseData.feed.link;
                 $scope.entries = data.responseData.feed.entries;
                 $scope.browse = function (v) {
-                    window.open(v, "_system", "location=yes");
+                    window.open(v, "_self", "location=yes", "toolbar=yes");
+                  
                 }
 
             })
@@ -49,3 +51,4 @@ app.controller('AccountCtrl', function($scope) {
     enableFriends: true
   };
 });
+
