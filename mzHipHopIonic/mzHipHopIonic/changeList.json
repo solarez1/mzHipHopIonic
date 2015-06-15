@@ -283,9 +283,15 @@
     "plugins\\org.apache.cordova.statusbar\\CONTRIBUTING.md",
     "plugins\\org.apache.cordova.statusbar\\src\\ios\\CDVStatusBar.m",
     "plugins\\org.apache.cordova.statusbar\\src\\ios\\CDVStatusBar.h",
-    "plugins\\org.apache.cordova.statusbar\\doc\\zh\\index.md"
+    "plugins\\org.apache.cordova.statusbar\\doc\\zh\\index.md",
+    "res\\screens\\android\\musicsensei.png",
+    "res\\icons\\android\\musicsensei.png",
+    "res\\icons\\android\\musicsensei_icon.png"
   ],
-  "deletedFilesIos": [],
+  "deletedFilesIos": [
+    "res\\screens\\music-notes-clip-art-png-139835101453.png",
+    "res\\screens\\android\\music-notes-clip-art-png-139835101453.png"
+  ],
   "addedPluginsIos": [
     "org.apache.cordova.inappbrowser@0.6.0",
     "org.apache.cordova.vibration@0.3.13",
@@ -296,9 +302,16 @@
   "deletedPluginsIos": [],
   "changedFiles": [
     "plugins\\android.json",
-    "www\\templates\\tab-dash.html"
+    "res\\icons\\android\\musicsensei_icon.png",
+    "config.xml"
   ],
   "deletedFiles": [],
-  "addedPlugins": [],
+  "addedPlugins": [
+    "org.apache.cordova.inappbrowser@0.6.0",
+    "org.apache.cordova.vibration@0.3.13",
+    "org.apache.cordova.dialogs@0.3.0",
+    "org.apache.cordova.splashscreen@1.0.0",
+    "org.apache.cordova.statusbar@0.1.10"
+  ],
   "deletedPlugins": []
 }
