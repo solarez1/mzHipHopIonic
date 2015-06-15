@@ -97,4 +97,9 @@
       </vs:name>
     </vs:platformSpecificWidget>
   </vs:platformSpecificValues>
+  <vs:plugin name="org.apache.cordova.inappbrowser" version="0.6.0" />
+  <vs:plugin name="org.apache.cordova.vibration" version="0.3.13" />
+  <vs:plugin name="org.apache.cordova.dialogs" version="0.3.0" />
+  <vs:plugin name="org.apache.cordova.splashscreen" version="1.0.0" />
+  <vs:plugin name="org.apache.cordova.statusbar" version="0.1.10" />
 </widget>
