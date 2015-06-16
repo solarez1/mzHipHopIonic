@@ -43,13 +43,11 @@ app.controller('ChatsCtrl', function($http, $scope) {
     }
 
 });
-app.controller('ChatDetailCtrl', function($scope, $stateParams, Chats) {
-  $scope.chat = Chats.get($stateParams.chatId);
+app.controller('ChatDetailCtrl', function($scope) {
+  
 })
 
 app.controller('AccountCtrl', function($scope) {
-  $scope.settings = {
-    enableFriends: true
-  };
+
 });
 
