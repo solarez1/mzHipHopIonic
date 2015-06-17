@@ -113,6 +113,7 @@
     "res\\icons\\ios\\icon-60-3x.png",
     "plugins\\fetch.json",
     "plugins\\org.apache.cordova.dialogs\\doc\\fr\\index.md",
+    "config.xml",
     "plugins\\org.apache.cordova.dialogs\\src\\ubuntu\\notification.h",
     "res\\screens\\wp8\\SplashScreenImage.jpg",
     "plugins\\org.apache.cordova.vibration\\doc\\ko\\index.md",
@@ -286,10 +287,14 @@
     "plugins\\org.apache.cordova.splashscreen\\tests\\ios\\CDVSplashScreenTest\\CDVSplashScreenLibTests\\Info.plist",
     "res\\icons\\windows\\Square44x44Logo.scale-240.png",
     "res\\screens\\android\\screen-mdpi-portrait.png",
-    "config.xml"
+    "www\\templates\\vid1.html",
+    "www\\templates\\vid2.html",
+    "www\\templates\\vid3.html",
+    "www\\templates\\vid4.html",
+    "www\\templates\\vid5.html"
   ],
   "deletedFilesIos": [
-    "www\\templates\\vid1.html"
+    "www\\templates\\vid1 - Copy.html"
   ],
   "addedPluginsIos": [
     "org.apache.cordova.inappbrowser@0.6.0",
@@ -300,7 +305,9 @@
   ],
   "deletedPluginsIos": [],
   "changedFiles": [
-    "plugins\\android.json"
+    "plugins\\android.json",
+    "www\\templates\\vid2.html",
+    "www\\templates\\vid1.html"
   ],
   "deletedFiles": [],
   "addedPlugins": [],

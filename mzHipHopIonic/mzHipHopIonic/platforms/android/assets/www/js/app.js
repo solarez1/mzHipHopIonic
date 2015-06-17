@@ -75,7 +75,47 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
         controller: 'AccountCtrl'
       }
     }
-  });
+  })
+           .state('tab.vid1', {
+               url: '/vid1',
+               views: {
+                   'vid1': {
+                       templateUrl: 'templates/vid1.html',
+                   }
+               }
+           })
+           .state('tab.vid2', {
+               url: '/vid2',
+               views: {
+                   'vid2': {
+                       templateUrl: 'templates/vid2.html',
+                   }
+               }
+           })
+           .state('tab.vid3', {
+               url: '/vid3',
+               views: {
+                   'vid3': {
+                       templateUrl: 'templates/vid3.html',
+                   }
+               }
+           })
+           .state('tab.vid4', {
+               url: '/vid4',
+               views: {
+                   'vid4': {
+                       templateUrl: 'templates/vid4.html',
+                   }
+               }
+           })
+           .state('tab.vid5', {
+               url: '/vid5',
+               views: {
+                   'vid5': {
+                       templateUrl: 'templates/vid5.html',
+                   }
+               }
+           });
 
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/tab/dash');
