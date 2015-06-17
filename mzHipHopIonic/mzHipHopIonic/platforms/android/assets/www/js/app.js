@@ -21,15 +21,16 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
   });
 })
 
-.config(function($stateProvider, $urlRouterProvider) {
+.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider) {
 
   // Ionic uses AngularUI Router which uses the concept of states
   // Learn more here: https://github.com/angular-ui/ui-router
   // Set up the various states which the app can be in.
   // Each state's controller can be found in controllers.js
-  $stateProvider
 
-  // setup an abstract state for the tabs directive
+  $ionicConfigProvider.tabs.position('bottom');
+    // setup an abstract state for the tabs directive
+    $stateProvider
     .state('tab', {
     url: "/tab",
     abstract: true,
@@ -79,7 +80,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
            .state('tab.vid1', {
                url: '/vid1',
                views: {
-                   'vid1': {
+                   'tab-vid1': {
                        templateUrl: 'templates/vid1.html',
                    }
                }
@@ -87,7 +88,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
            .state('tab.vid2', {
                url: '/vid2',
                views: {
-                   'vid2': {
+                   'tab-vid2': {
                        templateUrl: 'templates/vid2.html',
                    }
                }
@@ -95,7 +96,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
            .state('tab.vid3', {
                url: '/vid3',
                views: {
-                   'vid3': {
+                   'tab-vid3': {
                        templateUrl: 'templates/vid3.html',
                    }
                }
@@ -103,7 +104,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
            .state('tab.vid4', {
                url: '/vid4',
                views: {
-                   'vid4': {
+                   'tab-vid4': {
                        templateUrl: 'templates/vid4.html',
                    }
                }
@@ -111,7 +112,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
            .state('tab.vid5', {
                url: '/vid5',
                views: {
-                   'vid5': {
+                   'tab-vid5': {
                        templateUrl: 'templates/vid5.html',
                    }
                }
