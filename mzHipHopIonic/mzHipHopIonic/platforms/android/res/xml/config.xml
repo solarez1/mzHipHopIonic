@@ -22,17 +22,17 @@
     <icon density="mdpi" src="res/icons/android/musicsensei_icon.png" />
     <icon density="hdpi" src="res/icons/android/musicsensei_icon.png" />
     <icon density="xhdpi" src="res/icons/android/musicsensei_icon.png" />
-    <splash density="land-hdpi" src="res/screens/android/musicsensei.png" />
-    <splash density="land-ldpi" src="res/screens/android/musicsensei.png" />
-    <splash density="land-mdpi" src="res/screens/android/musicsensei.png" />
-    <splash density="land-xhdpi" src="res/screens/android/musicsensei.png" />
-    <splash density="port-hdpi" src="res/screens/android/musicsensei.png" />
-    <splash density="port-ldpi" src="res/screens/android/musicsensei.png" />
-    <splash density="port-mdpi" src="res/screens/android/musicsensei.png" />
-    <splash density="port-xhdpi" src="res/screens/android/musicsensei.png" />
+    <splash density="land-hdpi" src="res/screens/android/musicsensei_splash.png" />
+    <splash density="land-ldpi" src="res/screens/android/musicsensei_splash.png" />
+    <splash density="land-mdpi" src="res/screens/android/musicsensei_splash.png" />
+    <splash density="land-xhdpi" src="res/screens/android/musicsensei_splash.png" />
+    <splash density="port-hdpi" src="res/screens/android/musicsensei_splash.png" />
+    <splash density="port-ldpi" src="res/screens/android/musicsensei_splash.png" />
+    <splash density="port-mdpi" src="res/screens/android/musicsensei_splash.png" />
+    <splash density="port-xhdpi" src="res/screens/android/musicsensei_splash.png" />
     <name>MusicSensei</name>
     <description>Hear about the latest music news before listening to hot new tracks!</description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">Solarez</author>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">SolareZ</author>
     <content src="index.html" />
     <access origin="*" />
     <vs:features />
