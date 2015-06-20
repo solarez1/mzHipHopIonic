@@ -23,12 +23,14 @@
     "plugins\\org.apache.cordova.vibration\\src\\blackberry10\\index.js",
     "plugins\\org.apache.cordova.inappbrowser\\src\\android\\res\\drawable-hdpi\\ic_action_remove.png",
     "plugins\\org.apache.cordova.splashscreen\\src\\wp\\SplashScreen.cs",
+    "res\\icons\\android\\musicsensei_icon.png",
     "plugins\\org.apache.cordova.inappbrowser\\doc\\index.md",
     "res\\screens\\ios\\screen-iphone-landscape-736h.png",
     "plugins\\org.apache.cordova.dialogs\\package.json",
     "plugins\\org.apache.cordova.inappbrowser\\src\\android\\InAppBrowser.java",
     "plugins\\org.apache.cordova.vibration\\src\\blackberry10\\native\\src\\vibration_js.cpp",
     "plugins\\org.apache.cordova.vibration\\doc\\index.md",
+    "res\\icons\\android\\musicsensei_splash.png",
     "plugins\\org.apache.cordova.statusbar\\doc\\es\\index.md",
     "res\\icons\\windows\\StoreLogo.scale-100.png",
     "plugins\\org.apache.cordova.dialogs\\NOTICE",
@@ -112,6 +114,7 @@
     "res\\icons\\ios\\icon-60-3x.png",
     "plugins\\fetch.json",
     "plugins\\org.apache.cordova.dialogs\\doc\\fr\\index.md",
+    "config.xml",
     "plugins\\org.apache.cordova.dialogs\\src\\ubuntu\\notification.h",
     "res\\screens\\wp8\\SplashScreenImage.jpg",
     "plugins\\org.apache.cordova.vibration\\doc\\ko\\index.md",
@@ -289,12 +292,10 @@
     "plugins\\org.apache.cordova.splashscreen\\tests\\ios\\CDVSplashScreenTest\\CDVSplashScreenLibTests\\Info.plist",
     "res\\icons\\windows\\Square44x44Logo.scale-240.png",
     "res\\screens\\android\\screen-mdpi-portrait.png",
-    "config.xml",
-    "res\\icons\\android\\musicsensei_icon.png",
-    "res\\icons\\android\\musicsensei_splash.png"
+    "res\\icons\\reading.png"
   ],
   "deletedFilesIos": [
-    "res\\icons\\android\\musicsensei.png"
+    "res\\icons\\Further-Reading-Guide-icon.png"
   ],
   "addedPluginsIos": [
     "org.apache.cordova.inappbrowser@0.6.0",
@@ -305,7 +306,8 @@
   ],
   "deletedPluginsIos": [],
   "changedFiles": [
-    "plugins\\android.json"
+    "plugins\\android.json",
+    "www\\templates\\tab-chats.html"
   ],
   "deletedFiles": [],
   "addedPlugins": [],

@@ -2,7 +2,7 @@
   <ion-content>
     <ion-list>
         <div ng-controller="ChatsCtrl" ng-init="init()">
-            <a ng-repeat="entry in entries" class="item" ng-click="browse(entry.link)">
+            <a ng-repeat="entry in entries" class="item" ng-click="browse(entry.link)">             
                 <b>{{entry.title}}</b><br>
                 <span ng-bind-html="entry.contentSnippet"></span>
             </a>            
