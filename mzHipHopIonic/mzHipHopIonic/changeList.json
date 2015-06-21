@@ -282,6 +282,7 @@
     "plugins\\org.apache.cordova.inappbrowser\\package.json",
     "plugins\\org.apache.cordova.inappbrowser\\www\\inappbrowser.js",
     "plugins\\org.apache.cordova.vibration\\src\\wp\\Vibration.cs",
+    "res\\screens\\android\\musicsensei_splash.png",
     "plugins\\org.apache.cordova.dialogs\\src\\ubuntu\\notification.qml",
     "plugins\\org.apache.cordova.inappbrowser\\src\\ubuntu\\close.png",
     "res\\screens\\android\\screen-xhdpi-landscape.png",
@@ -290,12 +291,9 @@
     "plugins\\org.apache.cordova.splashscreen\\tests\\ios\\CDVSplashScreenTest\\CDVSplashScreenLibTests\\Info.plist",
     "res\\icons\\windows\\Square44x44Logo.scale-240.png",
     "res\\screens\\android\\screen-mdpi-portrait.png",
-    "res\\icons\\android\\musicsensei_icon.png",
-    "res\\screens\\android\\musicsensei_splash.png"
+    "res\\icons\\android\\musicsensei_icon.png"
   ],
-  "deletedFilesIos": [
-    "res\\icons\\android\\musicsensei_splash.png"
-  ],
+  "deletedFilesIos": [],
   "addedPluginsIos": [
     "org.apache.cordova.inappbrowser@0.6.0",
     "org.apache.cordova.vibration@0.3.13",
@@ -587,6 +585,7 @@
     "plugins\\org.apache.cordova.inappbrowser\\package.json",
     "plugins\\org.apache.cordova.inappbrowser\\www\\inappbrowser.js",
     "plugins\\org.apache.cordova.vibration\\src\\wp\\Vibration.cs",
+    "res\\screens\\android\\musicsensei_splash.png",
     "plugins\\org.apache.cordova.dialogs\\src\\ubuntu\\notification.qml",
     "plugins\\org.apache.cordova.inappbrowser\\src\\ubuntu\\close.png",
     "res\\screens\\android\\screen-xhdpi-landscape.png",
@@ -595,12 +594,9 @@
     "plugins\\org.apache.cordova.splashscreen\\tests\\ios\\CDVSplashScreenTest\\CDVSplashScreenLibTests\\Info.plist",
     "res\\icons\\windows\\Square44x44Logo.scale-240.png",
     "res\\screens\\android\\screen-mdpi-portrait.png",
-    "res\\icons\\android\\musicsensei_icon.png",
-    "res\\screens\\android\\musicsensei_splash.png"
+    "res\\icons\\android\\musicsensei_icon.png"
   ],
-  "deletedFiles": [
-    "res\\icons\\android\\musicsensei_splash.png"
-  ],
+  "deletedFiles": [],
   "addedPlugins": [
     "org.apache.cordova.inappbrowser@0.6.0",
     "org.apache.cordova.vibration@0.3.13",
