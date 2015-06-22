@@ -18,6 +18,9 @@
         <param name="android-package" value="org.apache.cordova.statusbar.StatusBar" />
         <param name="onload" value="true" />
     </feature>
+    <feature name="AdMob">
+        <param name="android-package" value="com.rjfun.cordova.plugin.AdMob" />
+    </feature>
     <icon density="ldpi" src="res/icons/android/musicsensei_icon.png" />
     <icon density="mdpi" src="res/icons/android/musicsensei_icon.png" />
     <icon density="hdpi" src="res/icons/android/musicsensei_icon.png" />
@@ -51,4 +54,5 @@
     <vs:plugin name="org.apache.cordova.dialogs" version="0.3.0" />
     <vs:plugin name="org.apache.cordova.splashscreen" version="1.0.0" />
     <vs:plugin name="org.apache.cordova.statusbar" version="0.1.10" />
+    <vs:plugin name="cordova-plugin-admob" version="2.2.0" />
 </widget>

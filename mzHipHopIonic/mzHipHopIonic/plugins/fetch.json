@@ -28,5 +28,24 @@
             "type": "registry",
             "id": "org.apache.cordova.statusbar"
         }
+    },
+    "cordova-plugin-admob": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/floatinghotpot/cordova-plugin-admob",
+            "subdir": "."
+        }
+    },
+    "com.google.admobsdk": {
+        "source": {
+            "type": "registry",
+            "id": "com.google.admobsdk"
+        }
+    },
+    "com.google.playservices": {
+        "source": {
+            "type": "registry",
+            "id": "com.google.playservices@19.0.0"
+        }
     }
 }

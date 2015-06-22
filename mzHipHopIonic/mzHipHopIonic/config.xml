@@ -102,4 +102,5 @@
   <vs:plugin name="org.apache.cordova.dialogs" version="0.3.0" />
   <vs:plugin name="org.apache.cordova.splashscreen" version="1.0.0" />
   <vs:plugin name="org.apache.cordova.statusbar" version="0.1.10" />
+  <vs:plugin name="cordova-plugin-admob" version="2.2.0" />
 </widget>

@@ -42,6 +42,13 @@ module.exports = [
         "clobbers": [
             "window.StatusBar"
         ]
+    },
+    {
+        "file": "plugins/cordova-plugin-admob/www/AdMob.js",
+        "id": "cordova-plugin-admob.AdMob",
+        "clobbers": [
+            "window.plugins.AdMob"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -51,7 +58,10 @@ module.exports.metadata =
     "org.apache.cordova.vibration": "0.3.13",
     "org.apache.cordova.dialogs": "0.3.0",
     "org.apache.cordova.splashscreen": "1.0.0",
-    "org.apache.cordova.statusbar": "0.1.10"
+    "org.apache.cordova.statusbar": "0.1.10",
+    "cordova-plugin-admob": "2.2.0",
+    "com.google.playservices": "19.0.0",
+    "com.google.admobsdk": "6.12.2"
 }
 // BOTTOM OF METADATA
 });

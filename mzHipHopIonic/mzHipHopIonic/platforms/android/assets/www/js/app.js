@@ -18,6 +18,28 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       // org.apache.cordova.statusbar required
       StatusBar.styleLightContent();
     }
+    if (window.plugins && window.plugins.AdMob) {
+       
+        var admob = window.plugins.AdMob;
+        admob.createBannerView(
+            {
+                'publisherId': 'ca-app-pub-7104297060980769/4863483144',
+                'adSize': admob.AD_SIZE.BANNER,
+                'bannerAtTop': false
+            },
+            function () {
+                admob.requestAd(
+                    //set to false when live
+                    { 'isTesting': true },
+                    function () {
+                        admob.showAd(true);
+                    },
+                    function () { console.log('failed to request ad'); }
+                );
+            },
+            function () { console.log('failed to create banner view'); }
+                );
+    }
   });
 })
 
