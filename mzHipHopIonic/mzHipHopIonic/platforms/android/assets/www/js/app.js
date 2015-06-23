@@ -30,7 +30,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
             function () {
                 admob.requestAd(
                     //set to false when live
-                    { 'isTesting': true },
+                    { 'isTesting': false },
                     function () {
                         admob.showAd(true);
                     },
