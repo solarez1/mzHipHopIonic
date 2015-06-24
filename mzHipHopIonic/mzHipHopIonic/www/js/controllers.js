@@ -32,7 +32,7 @@ app.controller('ChatsCtrl', function($http, $scope) {
                 $scope.rssSiteUrl = data.responseData.feed.link;
                 $scope.entries = data.responseData.feed.entries;
                 $scope.browse = function (v) {
-                    window.open(v, "_system", "location=no");
+                    window.open(v, "browserframe");
                
                 }
 
