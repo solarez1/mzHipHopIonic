@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<widget xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:vs="http://schemas.microsoft.com/appx/2014/htmlapps" id="io.cordova.myappe2785d518e9f4f6ea03055878dd7a401" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" defaultlocale="en-US">
+<widget xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:vs="http://schemas.microsoft.com/appx/2014/htmlapps" id="io.cordova.myappe2785d518e9f4f6ea03055878dd7a402" version="2.1.0" xmlns="http://www.w3.org/ns/widgets" defaultlocale="en-US">
   <name>MusicSensei</name>
   <description>Hear about the latest music news before listening to hot new tracks!</description>
   <author href="http://cordova.io" email="dev@cordova.apache.org">SolareZ</author>
@@ -103,8 +103,8 @@
   <vs:plugin name="org.apache.cordova.splashscreen" version="1.0.0" />
   <vs:plugin name="org.apache.cordova.statusbar" version="0.1.10" />
   <vs:plugin name="cordova-plugin-admob" version="2.2.0" />
-  <preference name="KeepRunning" value="False" />
-  <preference name="ShowTitle" value="True" />
-  <preference name="InAppBrowserStorageEnabled" value="False" />
-  <preference name="SuppressesIncrementalRendering" value="True" />
+  <preference name="KeepRunning" value="True" />
+  <preference name="ShowTitle" value="False" />
+  <preference name="InAppBrowserStorageEnabled" value="True" />
+  <preference name="SuppressesIncrementalRendering" value="False" />
 </widget>
