@@ -1,0 +1,16 @@
+
+<ion-view view-title="Top Recipes">
+    <ion-content>
+        <ion-list>
+            <div ng-controller="DashCtrl" ng-init="init()">
+                <a ng-repeat="entry in entries" class="item" ng-click="browse(entry.link)">
+                    <b>{{entry.title}}</b><br> 
+                    <b>{{entry.author}}</b><br>              
+                    <img src="{{entry.content}}"/>                                              
+                </a>            
+              
+             </div>                
+
+        </ion-list>
+    </ion-content>
+</ion-view>

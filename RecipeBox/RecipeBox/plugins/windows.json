@@ -1,0 +1,57 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "Properties/WMAppManifest.xml": {
+                "parents": {
+                    "/Deployment/App/Capabilities": [
+                        {
+                            "xml": "<Capability Name=\"ID_CAP_LOCATION\" />",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"AdMob\"><param name=\"wp-package\" value=\"AdMob\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "com.google.admobsdk": {
+            "PACKAGE_NAME": "\n        "
+        },
+        "com.google.playservices": {
+            "PACKAGE_NAME": "\n        "
+        },
+        "cordova-plugin-admob": {
+            "PACKAGE_NAME": "\n        "
+        },
+        "org.apache.cordova.dialogs": {
+            "PACKAGE_NAME": "\n        "
+        },
+        "org.apache.cordova.inappbrowser": {
+            "PACKAGE_NAME": "\n        "
+        },
+        "org.apache.cordova.splashscreen": {
+            "PACKAGE_NAME": "\n        "
+        },
+        "org.apache.cordova.statusbar": {
+            "PACKAGE_NAME": "\n        "
+        },
+        "org.apache.cordova.vibration": {
+            "PACKAGE_NAME": "\n        "
+        }
+    },
+    "dependent_plugins": {}
+}
