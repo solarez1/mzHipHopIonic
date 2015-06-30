@@ -1,0 +1,18 @@
+<ion-view view-title="Breaking Music News">
+  <ion-content>
+    <ion-list>
+        <div ng-controller="ChatsCtrl" ng-init="init()">
+            <a ng-repeat="entry in entries" class="item" ng-click="browse(entry.link)">             
+                <b>{{entry.title}}</b><br>
+                <b>{{entry.author}}</b><br>             
+                 
+
+               <img ng-repeat="thumbnail in entry.thumbnails" ng-src="{{thumbnail.url}}">
+
+                       
+                </a>
+        </div>
+
+    </ion-list>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,28 @@
+﻿<!--
+Create tabs with an icon and label, using the tabs-stable style.
+Each tab's child <ion-nav-view> directive will have its own
+navigation history that also transitions its views in and out.
+-->
+
+<ion-tabs class="tabs-energized">
+    
+    <!-- RSS Tab -->
+    <ion-tab title="RSS" icon-off="ion-social-rss" icon-on="ion-social-rss" href="#/tab/chats" >
+        <ion-nav-view name="tab-chats"></ion-nav-view>
+    </ion-tab>
+
+    <!-- Home Tab -->
+    <ion-tab title="Music" icon-off="ion-headphone" icon-on="ion-headphone" href="#/tab/dash">       
+        <ion-nav-view name="tab-dash"></ion-nav-view>
+    </ion-tab>
+
+    <!-- Setting Tab -->
+    <ion-tab title="Video" icon-off="ion-social-youtube" icon-on="ion-social-youtube" href="#/tab/account">
+        <ion-nav-view name="tab-account">        
+        </ion-nav-view>
+    </ion-tab>
+
+    
+</ion-tabs>
+
+
