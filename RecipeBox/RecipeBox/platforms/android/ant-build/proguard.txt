@@ -1,0 +1,6 @@
+# view AndroidManifest.xml #generated:13
+-keep class com.google.android.gms.ads.AdActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:6
+-keep class io.cordova.myappe2785d518e9f4f6ea03055878dd7a402.MainActivity { <init>(...); }
+
