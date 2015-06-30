@@ -3,7 +3,7 @@ var app = angular.module('starter.controllers', [])
 app.controller('DashCtrl', function ($http, $scope) {
 
     $scope.init = function () {
-        $http.get("http://ajax.googleapis.com/ajax/services/feed/load", { params: { "v": "1.0", "q": "http://www.feedyes.com/feed.php?f=rnVsf2z9TuLgLI8m", "num": 1000} })
+        $http.get("http://ajax.googleapis.com/ajax/services/feed/load", { params: { "v": "1.0", "q": "http://feed43.com/4244735404347522.xml", "num": 1000 } })
             .success(function (data) {
                 $scope.rssTitle = data.responseData.feed.title;
                 $scope.rssUrl = data.responseData.feed.feedUrl;
@@ -32,7 +32,7 @@ app.controller('ChatsCtrl', function($http, $scope) {
                 $scope.rssSiteUrl = data.responseData.feed.link;
                 $scope.entries = data.responseData.feed.entries;
                 $scope.browse = function (v) {
-                    window.open(v, "_system", "location=no");
+                    window.open(v, "browserframe");
                
                 }
 

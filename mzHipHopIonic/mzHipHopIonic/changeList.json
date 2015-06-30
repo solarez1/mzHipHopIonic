@@ -110,6 +110,7 @@
     "plugins\\org.apache.cordova.dialogs\\src\\ubuntu\\notification.cpp",
     "res\\icons\\windows\\StoreLogo.scale-240.png",
     "plugins\\org.apache.cordova.inappbrowser\\doc\\ru\\index.md",
+    "plugins\\windows.json",
     "plugins\\org.apache.cordova.vibration\\doc\\zh\\index.md",
     "res\\screens\\ios\\screen-ipad-landscape.png",
     "plugins\\org.apache.cordova.dialogs\\www\\firefoxos\\notification.css",
@@ -132,6 +133,7 @@
     "plugins\\com.google.admobsdk\\src\\ios\\README.txt",
     "plugins\\fetch.json",
     "plugins\\org.apache.cordova.dialogs\\doc\\fr\\index.md",
+    "config.xml",
     "plugins\\org.apache.cordova.dialogs\\src\\ubuntu\\notification.h",
     "plugins\\com.google.admobsdk\\src\\ios\\Add-ons\\Mediation\\GADCustomEventBannerDelegate.h",
     "res\\screens\\wp8\\SplashScreenImage.jpg",
@@ -164,6 +166,7 @@
     "plugins\\org.apache.cordova.statusbar\\package.json",
     "plugins\\org.apache.cordova.vibration\\src\\android\\Vibration.java",
     "plugins\\org.apache.cordova.dialogs\\www\\firefoxos\\pattern.png",
+    "www\\templates\\download.html",
     "res\\screens\\android\\screen-ldpi-landscape.png",
     "res\\icons\\windows\\Wide310x150Logo.scale-240.png",
     "plugins\\org.apache.cordova.dialogs\\doc\\de\\index.md",
@@ -344,8 +347,7 @@
     "plugins\\org.apache.cordova.splashscreen\\tests\\ios\\CDVSplashScreenTest\\CDVSplashScreenLibTests\\Info.plist",
     "res\\icons\\windows\\Square44x44Logo.scale-240.png",
     "plugins\\com.google.admobsdk\\src\\ios\\GADBannerView.h",
-    "res\\screens\\android\\screen-mdpi-portrait.png",
-    "config.xml"
+    "res\\screens\\android\\screen-mdpi-portrait.png"
   ],
   "deletedFilesIos": [],
   "addedPluginsIos": [
@@ -358,8 +360,7 @@
   ],
   "deletedPluginsIos": [],
   "changedFiles": [
-    "plugins\\android.json",
-    "res\\native\\android\\ant.properties"
+    "plugins\\android.json"
   ],
   "deletedFiles": [],
   "addedPlugins": [],
